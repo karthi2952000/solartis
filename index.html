@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solartis</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="topbar p-2 fixed-top shadow-sm mb-2  bg-white">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between ">
+                            <a class="navbar-brand mb-1 " href="#home">
+                                <img src="image/ss.PNG" alt="" width="150px" height="50px">
+                            </a>
+                            <div>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item mt-1 ">
+                                            <div class="dropdown">
+                                                <button class="btn btn-white" type="button" id="dropdownMenuButton"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a class="nav-link text-dark" style="font-size: 15px;" href="#">
+                                                        <h6>Our Microservice Technology</h6>
+                                                    </a>
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Business Process Outsourcing</a>
+                                                    <a class="dropdown-item" href="#">Problems We Solve</a>
+                                                    <a class="dropdown-item" href="#">Supported Processes</a>
+                                                    <a class="dropdown-item" href="#">Workflow Management and
+                                                        Reporting</a>
+                                                    <a class="dropdown-item" href="#">Our Use of RPA Technology</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item mt-1 ml-2 ">
+
+                                            <div class="dropdown">
+                                                <button class="btn btn-white" type="button" id="dropdownMenuButton"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <a class="nav-link text-dark" style="font-size: 15px;" href="#">
+                                                        <h6>Our BPO Services</h6>
+                                                    </a>
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Business Process Outsourcing</a>
+                                                    <a class="dropdown-item" href="#">Problems We Solve</a>
+                                                    <a class="dropdown-item" href="#">Supported Processes</a>
+                                                    <a class="dropdown-item" href="#">Workflow Management and
+                                                        Reporting</a>
+                                                    <a class="dropdown-item" href="#">Our Use of RPA Technology</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item mt-1 ml-2 ">
+
+                                            <div class="dropdown">
+                                                <button class="btn btn-white border-white" type="button"
+                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    <a class="nav-link text-dark" style="font-size: 15px;" href="#">
+                                                        <h6>Resources</h6>
+                                                    </a>
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Blog and News </a>
+                                                    <a class="dropdown-item" href="#">Videos </a>
+                                                    <a class="dropdown-item" href="#"> eBooks </a>
+                                                    <a class="dropdown-item" href="#">Guides </a>
+                                                    <a class="dropdown-item" href="#">Fact Sheets</a>
+                                                    <a class="dropdown-item" href="#"> Customer Success Stories </a>
+                                                    <a class="dropdown-item" href="#"> Business Process Outsourcing </a>
+                                                    <a class="dropdown-item" href="#"> Solartis Insure FAQs </a>
+                                                    <a class="dropdown-item" href="#">Solartis Administer (BPO) FAQs</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item mt-1 ml-2 ">
+
+                                            <div class="dropdown">
+                                                <button class="btn btn-white" type="button" id="dropdownMenuButton"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                    <a class="nav-link  text-dark" style="font-size: 15px;" href="#">
+                                                        <h6>About Us</h6>
+                                                    </a>
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Leadership </a>
+                                                    <a class="dropdown-item" href="#"> Careers </a>
+                                                    <a class="dropdown-item" href="#">Contact Information</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item mt-2 ml-2 mr-2">
+                                            <input type="button" class="btn text-white border-0"
+                                                style="background-color: rgb(203,76,31);" value="contact us">
+                                        </li>
+                                        <li class="nav-item mt-3 ml-4">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="masthead mt-5 d-flex align-items-center" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="jumbotron  text-center bg-transparent">
+                            <div class=" text-white  h1"
+                                style="font-family:'Work Sans', sans-serif ; font-weight: 100; font-size:45px;">
+                                Adaptive solutions for policy administration challenges
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center " style="background-color: rgb(250,250,250);">
+                        <div class="content dispay-2 h3 mt-5"
+                            style="color: rgb(8,110,112); font-family:'Work Sans', sans-serif; font-weight: 300; font-size:30px ;">
+                            <p> Solartis offers both groundbreaking technology and on-</p>
+                            <p> demand administrative services, or a combination of both,</p>
+                            <p> to solve your policy administration challenges.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12  text-center" style="background-color: rgb(248,248,248);">
+                        <div class="con2 mt-5 h6" style="color: rgb(127,123,121); ">
+                            <p>We are partnered with a variety of fantastic customers:</p>
+                            <div class="img mt-5">
+                                <img class="img-fluid" src="image/Capture.PNG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="service" id="service" style="background-color: rgb(32,60,86);">
+            <div class="container">
+                <div class="row justify-content-around">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 align-items-center">
+                        <h2><span style="color: #ed7125; font-family: 'Work Sans', sans-serif; font-weight: 300;">Which
+                                services are right for you? </span></h2>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-3">
+
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body">
+                                <h5 style="border-bottom: 2px solid ;">Solartis Insure
+                                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img src="image/connection-box-chart 2.webp">
+                                </h5>
+
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <p class="card-text">
+                                        An API-centric policy administration platform built on a microservices
+                                        architecture.</p>
+
+                                    <div id="accordion">
+                                        <div class="card border-0">
+
+                                            <div class=" text-center bg-white border-0" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="btn " data-toggle="collapse"
+                                                        data-target="#collapseOne" aria-expanded="false"
+                                                        aria-controls="collapseOne">
+                                                        <i class="fa-solid fa-arrow-down text-danger"></i>
+
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            
+
+                                            <div id="collapseOne" class="collapse " aria-labelledby="headingOne"
+                                                data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p> Solartis offers a variety of insurance
+                                                        microservices, available separately or bundled, for a completely
+                                                        custom, scalable,
+                                                        API-centric insurance policy administration solution. </p>
+                                                    <a id="service-card-cta" href=""> Explore Our Platform </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-3">
+
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body">
+                                <h5 style="color:#086E70;border-bottom: 2px solid #086E70;">Solartis
+                                    Administer&ensp;&ensp; <img src="image/single-card-image.webp"></h5>
+
+
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    <p class="card-text">
+                                        A new breed of insurance BPO combining top talent and state-of-the-art
+                                        technology.
+                                    </p>
+
+                                    <div id="accordion">
+                                        <div class="card border-0 ">
+                                            <div class=" text-center bg-white border-none" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <button class="btn " data-toggle="collapse"
+                                                        data-target="#collapseOne" aria-expanded="false"
+                                                        aria-controls="collapseOne">
+                                                        <i class="fa-solid fa-arrow-down text-danger"></i>
+
+                                                    </button>
+                                                </h5>
+                                            </div>
+
+                                            <div id="collapseOne" class="collapse  " aria-labelledby="headingOne"
+                                                data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <p id="service-card-addtl-content"> Solartis Administer, our BPO
+                                                        solution, offers
+                                                        immediate benefits including lower costs, faster turnaround
+                                                        time, and reduced
+                                                        administrative backlog.</p>
+                                                    <a id="service-card-cta"> Explore our
+                                                        Platform </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </h6>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="carrier" style="background-color: rgb(240,243,245);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center mt-5">
+                        <h5>We grant <span style="color: rgb(17,46,82); font-size: 30px;">Speed, Innovation, &
+                                Choice</span> to your business.</h5>
+                    </div>
+                </div>
+
+                <div class="row mt-4 ">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+                        <div class="card" style="width: 22rem;">
+                            <img class="card-img-top" src="image/sp1.PNG" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Replace cumbersome legacy technology with flexible microservices.
+                                    Build custom solutions to simplify the process of purchasing and managing insurance.
+                                </p>
+                            </div>
+                            <h5 class="text-center mb-4" style="color:rgb(203,76,31) ;">Explore our Platform &emsp; <i class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+
+                        <div class="card" style="width: 22rem;">
+                            <img class="card-img-top" src="image/sp2.PNG" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text mt-1">Stop creating workarounds for legacy technology. Adopt agile
+                                    microservices and dedicate time and effort to innovation.</p>
+                            </div>
+                            <h5 class="text-center mt-3 mb-4"  style="color:rgb(203,76,31) ;">Enhance Policy Administration <i class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+
+                        <div class="card" style="width: 22rem;">
+                            <img class="card-img-top" src="image/sp3.PNG" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Reduce project risk and expedite development efforts. Select just
+                                    what you need for your consumer portal, agency system, or full-blown carrier
+                                    underwriting system.</p>
+                            </div>
+                            <h5 class="text-center "  style="color:rgb(203,76,31) ;">View our Service Catalog&emsp; <i class="fa-solid fa-arrow-right"></i></h5>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <hr class="w-75" style="border-color: rgb(17,46,82); margin-left: 150px; background-color: rgb(240,243,245);">
+
+
+        <section class="customer" style="background-color: rgb(240,243,245);">
+            <div class="container">
+                <div class="row d-flex justify-content-around align-items-center ">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center mt-5 mb-5">
+                        <h1 class="font-weight-bold" style="color: rgb(17,46,82);">What our Customers Have to Say</h1>
+                    </div>
+                </div>
+
+                <div class="row mt-4 mb-5 rounded  " style="background-color: rgb(17,46,82);">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img src="image/JOYN_test_2.webp" alt="">
+
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 mt-5 " style="padding-left:100px ;">
+
+                        <p class="mt-5" style="color:white; font-size:20px; padding-left:60px">"As a startup, we're
+                            uniquely positioned to select <br> the best available solutions to
+                            meet the needs of a <br> modern organization.</p>
+                        <p style="color:white; font-size:20px; padding-left:60px">Solartis fits that bill by helping us
+                            to streamline <br> the underwriting process,
+                            leverage digital ISO <br> rating content, and effectively support our <br> underwriting
+                            decisions and data science insights to <br> provide a truly
+                            differentiated service to our <br> distribution partners.”</p>
+                        <p style="color:rgb(232,112,38); font-size:19px; padding-left:60px">
+                            Seraina Macia, co-founder and CEO of Joyn
+
+                        </p>
+
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="casestudy" style="background-color: rgb(25,122,124);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 ">
+                        <div class="case mt-5">
+                            <h6 class="text-white">Case study</h6>
+
+                            <p class="h3 text-white">Learn how CHIC combined people and technology to accelerate
+                                innovative policy administration.</p>
+                        </div>
+
+
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+                                <div class="insurance">
+                                    <img class="mt-2 mb-4 " src="image/insurance.webp" alt="">
+
+                                    <p class="text-white h5">A startup commercial auto insurer needed to issue new
+                                        business policies
+                                        while developing their long-term extendable policy administration system.</p>
+                                    <input type="button" class="btn btn-lg text-white mt-5 mb-3"
+                                        style="background-color: rgb(203,76,31);" value="Download the Case study">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+                                <div class="dist">
+                                    <img class="mt-2 mb-4" src="image/distribution 2.webp" alt="">
+                                    <p class="text-white h5">CHIC selected Solartis to provide BPO services to support
+                                        current business while
+                                        CHIC
+                                        and Solartis built out their innovative microservices-based solution</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-right">
+                        <div class="sol">
+                            <img src="image/image 1.webp" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="help">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-12 col-md-12 col-sm-12 mb-4 text-center">
+                        <p class="mb-3">
+                        <h3>Ready to see how our Microservices can Help?</h3>
+                        </p>
+                        <input type="button" class="btn btn-lg text-white mt-5 mb-3"
+                            style="background-color: rgb(203,76,31);" value="Connect with an Expert from our Team">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer" style="background-color: rgb(17,46,81);">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <img class="mr-5" src="image/sss.PNG" alt=""><br>
+
+                        <i class="fa-brands fa-linkedin text-white mt-4  fa-1x"></i>&emsp;
+                        <i class="fa-brands fa-twitter text-white  mt-4 fa-1x"></i>&emsp;
+                        <i class="fa-brands fa-facebook text-white  mt-4 fa-1x"></i>&emsp;
+                        <br>
+                        <br>
+                        <br><br><br>
+                        <h4 class="text-white mt-5">Get Started</h4>
+                        <p class="text-white">Access Sandbox</p>
+                        <p class="text-white">Schedule a BPO Consultation
+                        </p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <h4 class="text-white mt-4">Our Platform</h4>
+                        <p class="text-white">Insurance Microservices</p>
+                        <p class="text-white">Our Microservices Catalog</p>
+                        <p class="text-white">Cloud Infrastructure</p>
+                        <p class="text-white">Self-Service Toolkit</p>
+                        <p class="text-white">Reporting & Data Analysis</p>
+                        <p class="text-white"> Supported Insurance Products</p>
+                        <p class="text-white">Third-Party Integrations</p>
+                        <p class="text-white">Our Tech Stack</p>
+                        <p class="text-white">Business Process Outsourcing</p>
+
+                        <h4 class="text-white mt-5">Our Customers</h4>
+                        <p class="text-white">Insuretech Startups</p>
+                        <p class="text-white">Insurance Companies</p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <h4 class="text-white mt-4">Resources</h4>
+                        <p class="text-white">Blog </p>
+                        <p class="text-white"> Case Studies</p>
+                        <p class="text-white"> Solartis Insure FAQs</p>
+                        <p class="text-white"> Solartis Administer (BPO)</p>
+                        <p class="text-white"> FAQs</p>
+
+                        <h4 class="text-white">About Us</h4>
+                        <p class="text-white">Why Solartis</p>
+                         <p class="text-white">   Leadership</p>
+                         <p class="text-white">  News & Events</p> 
+                         <p class="text-white">   Careers</p>
+                         <p class="text-white">   Contact Us</p>
+                          <p class="text-white">  Contact Information</p>
+                         <p class="text-white">   Security and Compliance</p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <h4 class="text-white mt-4">Quick Links</h4>
+                        <p class="text-white">Supported BPO Processes</p>
+                         <p class="text-white">   Insurtech</p>
+                         <p class="text-white">  Insurance Technology</p> 
+                          <p class="text-white">  ITC - Insuretech Connect</p>
+                          <p class="text-white">  Insurance Policy Administration Systems</p>
+                          <p class="text-white"> P&C Insurance Industry Trends</p> 
+                         <p class="text-white">   Insurance Microservices</p>
+                         <p class="text-white">   Insurance BPO</p>
+                         <p class="text-white">   Ratings Microservice</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="foot1" style="background-color: rgb(13,30,55);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 mt-4 mb-3">
+                        <div class="foot">
+                            <p class="text-white">© 2022 Solartis. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        
+                         
+    </footer>
+
+</body>
+
+</html>

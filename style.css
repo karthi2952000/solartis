@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.masthead
+{
+    background: url(image/v2-hero-bg.webp);
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+.footer i
+{
+    padding: 10px;
+    background-color: rgb(203,76,31) ;
+    border-radius: 50%;
+}
